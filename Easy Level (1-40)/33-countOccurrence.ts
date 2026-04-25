@@ -1,3 +1,4 @@
+// Implement a TypeScript function to count the occurrences of a character in a string.
 function countOccurrence(str: string, char: string): number {
   let count = 0;
   for (let i = 0; i < str.length; i++) {

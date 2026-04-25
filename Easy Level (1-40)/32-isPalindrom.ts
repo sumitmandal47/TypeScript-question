@@ -1,8 +1,12 @@
-const isPalindrome = (str: string): boolean => {
-  const clearStr = str.toLowerCase();
-  const reversed = clearStr.split("").reverse().join("");
+// Write a TypeScript function to check if a number is a palindrome.
+const isPalindrome = (num: number): boolean => {
+  if (num < 0) return false;
+  const str = num.toString();
+  const reversedStr = str.split("").reverse().join("");
 
-  return clearStr === reversed;
+  return str === reversedStr;
 };
-console.log(isPalindrome("level"));
-console.log(isPalindrome("name"));
+
+console.log(isPalindrome(121));
+console.log(isPalindrome(-121));
+console.log(isPalindrome(10));

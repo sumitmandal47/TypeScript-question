@@ -1,3 +1,4 @@
+// Write a TypeScript function to check if a number is a prime number.
 const isPrimeNumber = (num: number): boolean => {
   if (num <= 1) return false;
   for (let i = 2; i <= Math.sqrt(num); i++) {
@@ -5,9 +6,5 @@ const isPrimeNumber = (num: number): boolean => {
   }
   return true;
 };
-
-console.log(isPrimeNumber(2)); // true
-console.log(isPrimeNumber(3)); // true
-console.log(isPrimeNumber(4)); // false
-console.log(isPrimeNumber(5)); // true
-console.log(isPrimeNumber(10)); // false
+console.log(isPrimeNumber(2));
+console.log(isPrimeNumber(4));

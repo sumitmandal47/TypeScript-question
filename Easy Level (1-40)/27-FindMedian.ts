@@ -1,3 +1,4 @@
+// Implement a TypeScript function to find the median of an array.
 function findMedian(numbers: number[]): number | undefined {
   if (numbers.length === 0) {
     throw new Error("Cannot calculate the median of an empty array.");

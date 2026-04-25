@@ -1,3 +1,4 @@
+// Create a TypeScript function to check if a string contains only digits.
 const containOnlyDigits = (str: string): boolean => {
   return /^\d+$/.test(str);
 };

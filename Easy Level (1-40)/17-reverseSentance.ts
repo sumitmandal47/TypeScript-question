@@ -1,3 +1,4 @@
+//  Implement a TypeScript function to reverse words in a sentence.
 function reverseWordsInSentence(sentence: string): string {
   const words = sentence.split(" ");
   const reversedWords = words.reverse();

@@ -1,3 +1,4 @@
+// Write a TypeScript function to remove a specific element from an array.
 const removeSpecificElement = (
   arr: number[],
   number: number,
@@ -13,5 +14,4 @@ const removeSpecificElement = (
   return arr;
 };
 const arr1: number[] = [2, 4, 10, 3, 24];
-console.log(removeSpecificElement(arr1, 3));
 console.log(removeSpecificElement(arr1, 10));

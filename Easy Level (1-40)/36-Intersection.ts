@@ -1,3 +1,4 @@
+// Implement a TypeScript function to find the intersection of two arrays.
 const findIntersection = (arr1: number[], arr2: number[]) => {
   return arr1.filter((value) => {
     return arr2.includes(value);

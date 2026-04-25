@@ -1,7 +1,6 @@
-function evenAndOdd(num: number): string {
-  return num % 2 == 0 ? "Enter Number is Even" : "Enter Number is Odd";
-}
-console.log(evenAndOdd(9));
-console.log(evenAndOdd(2));
-console.log(evenAndOdd(10));
-console.log(evenAndOdd(5));
+// Write a TypeScript function to check if a number is even or odd.
+const EvenOdd = (num: number): string => {
+  return num % 2 == 0 ? "Even Number" : "Odd Number";
+};
+console.log(EvenOdd(2));
+console.log(EvenOdd(5));

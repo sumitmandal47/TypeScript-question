@@ -1,19 +1,13 @@
+// Write a TypeScript function to find the minimum and maximum elements in an array.
 const minMaxElements = (arr: number[]): { min: number; max: number } => {
   if (arr.length === 0) {
-    throw new Error("Cannot find min/max of an empty array");
+    throw new Error(" Invalid Array ");
   }
-  let min = arr[0];
-  let max = arr[0];
-  for (let i = 1; i < arr.length; i++) {
-    const current = arr[i];
-    if (current < min) {
-      min = current;
-    } else if (current > max) {
-      max = current;
-    }
-  }
-  return { min, max };
+  return {
+    min: Math.min(...arr),
+    max: Math.max(...arr),
+  };
 };
 const numbers = [4, 2, 9, 7, 1, 15, 6];
 const { min, max } = minMaxElements(numbers);
-console.log(`Minimum: ${min}, Maximum: ${max}`);
+console.log(`Min: ${min}, Max: ${max}`);

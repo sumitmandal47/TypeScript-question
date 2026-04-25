@@ -1,3 +1,4 @@
+// Create a TypeScript program to find the sum of all prime numbers in an array.
 const sumOfPrimes = (arr: number[]): number => {
   const isPrime = (num: number): boolean => {
     if (num <= 1) return false;

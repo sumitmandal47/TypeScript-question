@@ -1,5 +1,6 @@
-const randomArray = (nums: number[]): number[] => {
-    const shuffled = nums.sort(() => Math.random() - 0.5);
+// Create a TypeScript program to generate a random array of numbers.
+const randomArray = (num: number[]): number[] => {
+  const shuffled = num.sort(() => Math.random() - 0.5);
   return shuffled.slice(0, 4);
 };
 

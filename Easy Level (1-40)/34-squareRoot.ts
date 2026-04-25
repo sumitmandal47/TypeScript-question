@@ -1,3 +1,4 @@
+// Create a TypeScript program to find the square root of a number.
 const squareRoot = (num: number): number => {
   return Math.sqrt(num);
 };

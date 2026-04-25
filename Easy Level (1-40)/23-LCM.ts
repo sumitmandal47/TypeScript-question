@@ -1,3 +1,4 @@
+// Write a TypeScript program to find the LCM (Least Common Multiple) of two numbers.
 const LCM = (a: number, b: number): number => {
   const max = Math.max(a, b);
   let lcm = max;

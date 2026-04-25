@@ -1,3 +1,4 @@
+// Write a TypeScript program to find the second largest element in an array.
 const secondLargest = (arr: number[]): number | undefined => {
   const unique = [...new Set(arr)];
   unique.sort((a, b) => b - a);

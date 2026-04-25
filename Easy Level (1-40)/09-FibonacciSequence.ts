@@ -1,3 +1,4 @@
+// Create a TypeScript program to generate the Fibonacci sequence up to a given number.
 const FibonacciSequence = (number: number): number[] => {
   let a = 0;
   let b = 1;
@@ -10,6 +11,6 @@ const FibonacciSequence = (number: number): number[] => {
   }
   return arr;
 };
-const limit = 1000;
+const limit = 100;
 const fibonacciSequence = FibonacciSequence(limit);
 console.log(fibonacciSequence);
